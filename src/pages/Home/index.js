@@ -14,7 +14,7 @@ import { useData } from "../../contexts/DataContext";
 import "./style.scss";
 
 const Page = () => {
-  const { data } = useData();
+  const {data} = useData();
   const [latestEvent, setLatestEvent] = useState(null);
 
   useEffect(() => {
